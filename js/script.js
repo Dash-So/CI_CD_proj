@@ -78,7 +78,7 @@ function reset() {
 
 let flag = 1;
 function setValue() {
-    if (flag ==1) {
+    if (flag == 1) {
         this.value = "X";
         this.disabled = true;
         flag = 0;
