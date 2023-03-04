@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Actions от glthub: проверяет репозиторий, гит и т.д.
-      - uses: actions/chekout@v3
+      - uses: actions/checkout@v3
       
       #Устанавливаем все необходимые зависимости и запускаем тесты node
       - name: npm install? test and build
